@@ -1,0 +1,7 @@
+<!-- 开发环境和测试环境 -->
+
+<springProfile name="dev,test">
+    <logger name="com.guigu" level="DEBUG">
+        <appender-ref ref="CONSOLE" />
+    </logger>
+</springProfile>
