@@ -14,6 +14,7 @@
         <module>service-core</module>
         <module>service-gateway</module>
         <module>service-sms</module>
+        <module>rabbit-mq</module>
     </modules>
 
     <properties>
@@ -63,7 +64,7 @@
 
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.4.RELEASE</version>
+        <version>2.3.4.RELEASE</version>
     </parent>
     <dependencyManagement>
         <dependencies>
